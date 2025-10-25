@@ -1,6 +1,6 @@
-# Zaczynanie pracy z OpenCore.
-
-Zanim możemy zacząć tworzyć system bazowany na OpenCore, musimy przejść przez kilka rzeczy.
+# Zaczynanie pracy z OpenCore
+ 
+ Zanim możemy zacząć tworzyć system bazowany na OpenCore, musimy przejść przez kilka rzeczy.
 
 ## Wymagania
 
@@ -12,7 +12,7 @@ Zanim możemy zacząć tworzyć system bazowany na OpenCore, musimy przejść pr
    * Twoje dyski (HDD/SSD, konfigurację NVMe/AHCI/RAID/IDE)
    * Model twojego laptopa lub komputera jeśli jest od OEM'a
    * Twój **chipset Ethernet**
-   * Twój chipset WLAN/Bluetooth 
+   * Twój chipset WLAN/Bluetooth
 3. <span style="color:red">_**[Ważne]**_</span> **PODSTAWOWA ZNAJOMOŚĆ Z LINIĄ POLECEŃ I JAK UŻYWAĆ JEJ/TERMINALA**
    * To nie jest tylko [Ważne], to jest cała podstawa tego poradnika. Nie możemy ci pomóc jeśli nie wiesz jak zrobić `cd` do folderu czy usunąć pliku.
 4. <span style="color:red">_**[Ważne]**_</span> Maszyna która jest kompatybilna jak widać w sekcji _**Kompatybliność**_
