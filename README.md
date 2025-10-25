@@ -12,7 +12,7 @@ meta:
 
 # Czym jest OpenCore i dla kogo jest ten poradnik
 
-OpenCore jest czymś co nazywamy "programem rozruchowym" (Z ang: boot loader) – Jest on zaawansowanym programem który pomaga nam przygotwać nasz komputer dla MacOS'a – dokładniej przez dokładanie nowych danych dla MacOS'a takich jak SMBIOS, tabele ACPI oraz kext'y. To narzędzie różni się od innych, takich jak Clover ponieważ zostało ono zaprojektowane z bezpieczeństwem i jakością na myśli, pozwalając nam na używanie dużej ilości funkcji zabezpeczajączych znajdujących się na prawdziwych Macach, takich jak [Ochrona integralności systemu](https://support.apple.com/pl-pl/102149) i [FileVault](https://support.apple.com/pl-pl/guide/mac-help/mh11785/mac). Dokładniejsze wyjaśnienie może być znalezione tutaj: [Dlaczego OpenCore zamiast Clover i innych](why-oc.md)
+OpenCore jest czymś co nazywamy "programem rozruchowym" (Z ang: boot loader) – Jest on zaawansowanym programem który pomaga nam przygotwać nasz komputer dla MacOS'a – dokładniej przez dokładanie nowych danych dla MacOS'a takich jak SMBIOS, tabele ACPI oraz kext'y. To narzędzie różni się od innych, takich jak Clover ponieważ zostało ono zaprojektowane z bezpieczeństwem i jakością na myśli, pozwalając nam na używanie dużej ilości funkcji zabezpeczajączych znajdujących się na prawdziwych Makach, takich jak [Ochrona integralności systemu](https://support.apple.com/pl-pl/102149) i [FileVault](https://support.apple.com/pl-pl/guide/mac-help/mh11785/mac). Dokładniejsze wyjaśnienie może być znalezione tutaj: [Dlaczego OpenCore zamiast Clover i innych](why-oc.md)
 
 Ten poradnik skupia się na dwóch głównych rzeczach:
 
