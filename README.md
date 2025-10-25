@@ -19,7 +19,7 @@ Ten poradnik skupia się na dwóch głównych rzeczach:
 * Instalowanie macOS'a na komputerze bazowanym na archiketrurze X86
 * Uczenie cie co sprawia że twój hack działa
 
-W trakcie instalacji będzie od ciebie wymagana umiejętność czytania oraz uczenia się oraz używania Google'a. To nie jest łatwa automatyczna instalacja.
+Przez to, będzie od ciebie wymagana umiejętność czytania oraz uczenia się oraz używania Google'a. To nie jest łatwa automatyczna instalacja.
 
 Pamiętaj że OpenCore jest dalej nowy i aktualnie w fazie beta. Mimo swej stabilności, która w porównaniu z Clover jest o wiele wyższa, dalej jest często aktualizowany, więc części konfiguracji się często zmieniają (np. nowe sposoby zastępujące stare.).
 
