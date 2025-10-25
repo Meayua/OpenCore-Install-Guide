@@ -1,5 +1,5 @@
 # Zaczynanie pracy z OpenCore
- 
+
  Zanim możemy zacząć tworzyć system bazowany na OpenCore, musimy przejść przez kilka rzeczy.
 
 ## Wymagania
