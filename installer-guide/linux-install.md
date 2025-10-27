@@ -9,7 +9,7 @@ Aby zacząć będziesz potrzebować:
   
 ## Pobieranie MacOS'a
 
-Żeby rozpocząc, przejdź do [folderu macrecovery] (https://github.com/acidanthera/OpenCorePkg/releases) i użyj jednej z poniższych komend:
+Żeby rozpocząc, przejdź do [folderu macrecovery] (<https://github.com/acidanthera/OpenCorePkg/releases>) i użyj jednej z poniższych komend:
 
 ![](../images/installer-guide/legacy-mac-install-md/macrecovery.png)
 
