@@ -3,7 +3,7 @@ const {
 } = require('../package')
 
 module.exports = {
-    title: 'OpenCore Install Guide',
+    title: 'Poradnik Instalacji OpenCore',
     head: [
         ['meta', {
             name: 'theme-color',
@@ -55,18 +55,18 @@ module.exports = {
 
     themeConfig: {
         lastUpdated: true,
-        repo: 'https://github.com/dortania/OpenCore-Install-Guide',
+        repo: 'https://github.com/meayua/OpenCore-Install-Guide',
         editLinks: true,
         editLinkText: 'Help us improve this page!',
         logo: '/homepage.png',
         nav: [{
-            text: 'Dortania Guides',
+            text: 'Poradniki Dortanii',
             items: [{
-                text: 'Home Site',
+                text: 'Strona Głowna',
                 link: 'https://dortania.github.io/'
             },
             {
-                text: 'Getting Started With ACPI',
+                text: 'Zaczynanie z ACPI',
                 link: 'https://dortania.github.io/Getting-Started-With-ACPI/'
             },
             {
@@ -78,22 +78,22 @@ module.exports = {
                 link: 'https://dortania.github.io/OpenCore-Multiboot/'
             },
             {
-                text: 'GPU Buyers Guide',
+                text: 'Poradnik zakupu GPU',
                 link: 'https://dortania.github.io/GPU-Buyers-Guide/'
             },
             {
-                text: 'Wireless Buyers Guide',
+                text: 'Poradnik zakupu kart bezprzewodowych',
                 link: 'https://dortania.github.io/Wireless-Buyers-Guide/'
             },
             {
-                text: 'Anti Buyers Guide',
+                text: 'Poradnik czego omijać',
                 link: 'https://dortania.github.io/Anti-Hackintosh-Buyers-Guide/'
             },
             ]
         },
         ],
         sidebar: [{
-            title: 'Introduction',
+            title: 'Wprowadzenie',
             collapsable: false,
             sidebarDepth: 1,
             children: [
@@ -105,11 +105,11 @@ module.exports = {
             ]
         },
         {
-            title: 'USB Creation',
+            title: 'Tworzenie USB',
             collapsable: false,
             sidebarDepth: 2,
             children: [{
-                title: 'Creating the USB',
+                title: 'Tworzenie USB',
                 collapsable: true,
                 path: '/installer-guide/',
                 sidebarDepth: 1,
@@ -121,15 +121,15 @@ module.exports = {
             },
                 '/installer-guide/opencore-efi',
                 'ktext',
-            ['https://dortania.github.io/Getting-Started-With-ACPI/', 'Getting started with ACPI'],
+            ['https://dortania.github.io/Getting-Started-With-ACPI/', 'Zaczynanie z ACPI'],
                 '/config.plist/',
             ]
         },
         {
-            title: 'Configs',
+            title: 'Konfiguracja',
             collapsable: false,
             children: [{
-                title: 'Intel Desktop config.plist',
+                title: 'config.plist dla Stacjonarnych Procesorów Intel',
                 collapsable: true,
                 sidebarDepth: 1,
                 children: [
@@ -145,7 +145,7 @@ module.exports = {
                 ]
             },
             {
-                title: 'Intel Laptop config.plist',
+                title: 'config.plist dla Mobilnych Procesorów Intel',
                 collapsable: true,
                 sidebarDepth: 1,
                 children: [
@@ -157,12 +157,12 @@ module.exports = {
                     ['/config-laptop.plist/skylake', 'Skylake'],
                     ['/config-laptop.plist/kaby-lake', 'Kaby Lake'],
                     ['/config-laptop.plist/coffee-lake', 'Coffee Lake and Whiskey Lake'],
-                    ['/config-laptop.plist/coffee-lake-plus', 'Coffee Lake Plus and Comet Lake'],
+                    ['/config-laptop.plist/coffee-lake-plus', 'Coffee Lake Plus i Comet Lake'],
                     ['/config-laptop.plist/icelake', 'Ice Lake'],
                 ]
             },
             {
-                title: 'Intel HEDT config.plist',
+                title: 'config.plist dla Procesorów Intel HEDT',
                 collapsable: true,
                 sidebarDepth: 1,
                 children: [
@@ -174,7 +174,7 @@ module.exports = {
                 ]
             },
             {
-                title: 'AMD Desktop config.plist',
+                title: 'config.plist dla Stacjonarnych Procesorów AMD',
                 collapsable: true,
                 sidebarDepth: 1,
                 children: [
@@ -186,7 +186,7 @@ module.exports = {
             ]
         },
         {
-            title: 'Installation',
+            title: 'Instalacja',
             collapsable: false,
             children: [
                 '/installation/installation-process',
@@ -194,7 +194,7 @@ module.exports = {
             ]
         },
         {
-            title: 'Troubleshooting',
+            title: 'Rozwiązywanie problemów',
             collapsable: false,
             children: [
                 '/troubleshooting/troubleshooting',
@@ -216,10 +216,10 @@ module.exports = {
             ]
         },
         {
-            title: 'Post Install',
+            title: 'Po Instalacji',
             collapsable: false,
             children: [
-                ['https://dortania.github.io/OpenCore-Post-Install/', 'Post-Install'],
+                ['https://dortania.github.io/OpenCore-Post-Install/', 'Po Instalacji'],
                 {
                     title: 'Universal',
                     collapsable: true,
@@ -237,7 +237,7 @@ module.exports = {
                     ]
                 },
                 {
-                    title: 'Laptop Specifics',
+                    title: 'Specyficzne dla laptopów',
                     collapsable: true,
                     children: [
                         ['https://dortania.github.io/OpenCore-Post-Install/laptop-specific/battery', 'Fixing Battery Read-outs'],
@@ -245,7 +245,7 @@ module.exports = {
                     ]
                 },
                 {
-                    title: 'Cosmetics',
+                    title: 'Kosmetyczne',
                     collapsable: true,
                     children: [
                         ['https://dortania.github.io/OpenCore-Post-Install/cosmetic/verbose', 'Fixing Resolution and Verbose'],
@@ -262,7 +262,7 @@ module.exports = {
                     ]
                 },
                 {
-                    title: 'Miscellaneous',
+                    title: 'Różnorodne',
                     collapsable: true,
                     children: [
                         ['https://dortania.github.io/OpenCore-Post-Install/misc/rtc', 'Fixing RTC'],
@@ -273,26 +273,26 @@ module.exports = {
             ]
         },
         {
-            title: 'Extras',
+            title: 'Dodatki',
             collapsable: false,
             sidebarDepth: 2,
             children: [
                 '/extras/kaslr-fix',
                 '/extras/spoof',
-                ['https://github.com/dortania/OpenCore-Install-Guide/tree/master/clover-conversion', 'Clover Conversion'],
+                ['https://github.com/dortania/OpenCore-Install-Guide/tree/master/clover-conversion', 'Konwersja z Clover'],
                 '/extras/smbios-support.md',
                 
             ]
         },
         {
-            title: 'OS Specific',
+            title: 'Specyficzne dla systemu',
             collapsable: false,
             children: [
                 '/extras/tahoe',
             ]
         },
         {
-            title: 'Misc',
+            title: 'Róznorodne',
             collapsable: false,
             children: [
                 'CONTRIBUTING',
